@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
+.greyline {
+    height: 10vh;
+    background-color: lightslategray;
+}
+
+.menu {
+    font-family: 'JetBrains Mono', monospace;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    background-color: lightcoral;
+    height: 50%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+h1 {
+    font-family: 'Fira Code', monospace;
+}
+
+.giphy-embed{
+  width: 1000px;
+}
